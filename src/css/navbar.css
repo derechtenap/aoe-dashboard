@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.navbar {
+  background-color: var(--dark-primary);
+  color: var(--white-text);
+  padding: 20px 40px;
+  font-size: 32px; /* <- Icon size in Navbar.jsx */
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0; /* Remove margin and padding from the <ul> element */
+  padding-left: 0;
+  list-style: none;
+}
+
+.navbar-logo-text {
+  margin-left: 10px; /* Push logo text to the right side */
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: var(--white-text);
+  transition: 150ms;
+}
+
+.navbar-link:hover {
+  color: var(--light-primary);
+}
