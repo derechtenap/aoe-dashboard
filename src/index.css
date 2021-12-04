@@ -46,6 +46,11 @@ form {
   flex-direction: row;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .content {
   display: flex;
   justify-content: space-between;
