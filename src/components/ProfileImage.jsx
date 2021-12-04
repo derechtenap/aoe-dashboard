@@ -1,3 +1,20 @@
+import defaultAvatar from "../img/default-avatar.svg";
+
 export default function ProfileImage({ src }) {
-  return <img src={src} alt="Profile" />;
+  const checkImageSrc = (src) => {
+    // Displays a default avatar when the src path is null
+    if (src === null) {
+      console.warn(`Avatar src seems to be null! (${src})`);
+      return defaultAvatar;
+    }
+    return src;
+  };
+
+  return (
+    <img
+      src={checkImageSrc(src)}
+      alt="Profile"
+      style={{ width: "184px", height: "184px" }}
+    />
+  );
 }
