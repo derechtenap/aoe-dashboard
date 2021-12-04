@@ -1,7 +1,7 @@
 .navbar {
   background-color: var(--dark-primary);
   color: var(--white-text);
-  padding: 20px 40px;
+  padding: var(--spacing-20) var(--spacing-40);
   font-size: 32px; /* <- Icon size in Navbar.jsx */
 }
 
@@ -9,13 +9,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0; /* Remove margin and padding from the <ul> element */
-  padding-left: 0;
+  /* Remove margin and padding from the <ul> element */
+  margin: var(--spacing-0);
+  padding-left: var(--spacing-0);
   list-style: none;
 }
 
 .navbar-logo-text {
-  margin-left: 10px; /* Push logo text to the right side */
+  margin-left: var(--spacing-10); /* Push logo text to the right side */
 }
 
 .navbar-link {
