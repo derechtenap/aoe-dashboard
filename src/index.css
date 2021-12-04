@@ -73,7 +73,6 @@ img {
 .error p {
   font-size: 20px;
   font-weight: bold;
-  padding-top: var(--spacing-20);
   margin-top: var(--spacing-0);
 }
 
