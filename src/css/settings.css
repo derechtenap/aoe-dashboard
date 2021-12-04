@@ -1,0 +1,58 @@
+.section-divider {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--divider);
+  margin-top: var(--spacing-40);
+  font-size: 20px;
+}
+
+.btn-save-settings {
+  display: block;
+  margin-top: var(--spacing-40);
+  border: 0;
+  background-color: var(--primary);
+  color: var(--white-text);
+  padding: var(--spacing-10);
+  font-size: 18px;
+  font-family: var(--font-stack);
+  transition: 150ms;
+}
+
+.btn-save-settings:hover {
+  background-color: var(--dark-primary);
+  cursor: pointer;
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.card {
+  width: calc(33% - 20px); /* 33% - gap card in the middle (2*10px) */
+  min-width: 300px;
+}
+
+.card-header {
+  background-color: var(--primary);
+  color: var(--light-primary);
+  padding: var(--spacing-20);
+  text-align: center;
+}
+
+.card-body {
+  background-color: var(--dark-primary);
+  color: var(--white-text);
+  padding: var(--spacing-20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-heading {
+  font-size: 28px;
+  color: var(--white-text);
+}
