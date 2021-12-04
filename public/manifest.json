@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "AOE Dashboard",
+  "name": "Age of Empires Dashboard",
+  "lang": "en",
   "icons": [
     {
       "src": "favicon.ico",
