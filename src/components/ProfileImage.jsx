@@ -10,11 +10,5 @@ export default function ProfileImage({ src }) {
     return src;
   };
 
-  return (
-    <img
-      src={checkImageSrc(src)}
-      alt="Profile"
-      style={{ width: "184px", height: "184px" }}
-    />
-  );
+  return <img src={checkImageSrc(src)} className="profile" alt="Profile" />;
 }
