@@ -1,5 +1,16 @@
 # AOE Dashboard
 
+> **This Project is currently under development and unfinished! You can see the current status in the `Roadmap` section.**
+
+### Roadmap Version 1.0
+
+1. Layout and CSS: **~60%**
+2. Fetch data from the API: **~20%**
+3. Settings menu: **~40%**
+4. Build Electron App: **0%**
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
