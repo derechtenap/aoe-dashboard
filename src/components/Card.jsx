@@ -4,7 +4,6 @@ export default function Card({
   paragraph = null,
   body = null,
 }) {
-  // Card used in the settings menu
   return (
     <div className="card">
       <div className="card-header">
