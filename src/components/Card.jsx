@@ -1,4 +1,9 @@
-export default function Card({ icon, heading, paragraph, form }) {
+export default function Card({
+  icon = null,
+  heading = null,
+  paragraph = null,
+  form = null,
+}) {
   // Card used in the settings menu
   return (
     <div className="card">
