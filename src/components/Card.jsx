@@ -6,10 +6,12 @@ export default function Card({
 }) {
   return (
     <div className="card">
-      <div className="card-icon">{icon}</div>
-      <p className="card-heading">{heading}</p>
-      <div className="card-body">{body}</div>
-      <div className="card-footer">{footer}</div>
+      <div className="card-content">
+        <div className="card-icon">{icon}</div>
+        <p className="card-heading">{heading}</p>
+        <div className="card-body">{body}</div>
+        <div className="card-footer">{footer}</div>
+      </div>
     </div>
   );
 }
