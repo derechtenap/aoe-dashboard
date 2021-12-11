@@ -2,7 +2,7 @@ export default function Card({
   icon = null,
   heading = null,
   paragraph = null,
-  form = null,
+  body = null,
 }) {
   // Card used in the settings menu
   return (
@@ -12,7 +12,7 @@ export default function Card({
         <p className="card-heading">{heading}</p>
         <p>{paragraph}</p>
       </div>
-      <div className="card-body">{form}</div>
+      <div className="card-body">{body}</div>
     </div>
   );
 }
