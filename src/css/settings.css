@@ -26,33 +26,37 @@
 .card-group {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
   width: 100%;
+  gap: var(--spacing-10);
 }
 
 .card {
-  width: calc(33% - 20px); /* 33% - gap card in the middle (2*10px) */
   min-width: 300px;
-}
-
-.card-header {
+  flex: 1;
+  padding: var(--spacing-20);
   background-color: var(--primary);
   color: var(--light-primary);
-  padding: var(--spacing-20);
   text-align: center;
 }
 
-.card-body {
-  background-color: var(--dark-primary);
-  color: var(--white-text);
-  padding: var(--spacing-20);
+.card-icon {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--white-text);
 }
 
 .card-heading {
   font-size: 28px;
   color: var(--white-text);
+}
+
+.card-body {
+  padding-bottom: var(--spacing-30);
+}
+
+.card-footer {
+  background-color: var(--light-primary);
+  color: var(--primary-text);
+  padding: var(--spacing-10);
 }

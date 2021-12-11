@@ -1,17 +1,15 @@
 export default function Card({
   icon = null,
   heading = null,
-  paragraph = null,
   body = null,
+  footer = null,
 }) {
   return (
     <div className="card">
-      <div className="card-header">
-        {icon}
-        <p className="card-heading">{heading}</p>
-        <p>{paragraph}</p>
-      </div>
+      <div className="card-icon">{icon}</div>
+      <p className="card-heading">{heading}</p>
       <div className="card-body">{body}</div>
+      <div className="card-footer">{footer}</div>
     </div>
   );
 }
