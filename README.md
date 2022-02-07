@@ -1,46 +1,52 @@
-# AOE Dashboard
+# :desktop_computer: AOE Dashboard
 
-> **This Project is currently under development and unfinished! You can see the current status in the `Roadmap` section.**
+[![wakatime](https://wakatime.com/badge/user/b1ad2fef-c724-4810-bfdb-2707dd8ae64d/project/e9c04bd6-bdee-4404-b185-b5815a60d172.svg)](https://wakatime.com/badge/user/b1ad2fef-c724-4810-bfdb-2707dd8ae64d/project/e9c04bd6-bdee-4404-b185-b5815a60d172)
 
-### Roadmap Version 1.0
+Dashboard for Age of Empires II. Displaying your previous matches, stats and ongoing game. Build with [SvelteKit](https://kit.svelte.dev/) and [Tailwind CSS](https://tailwindcss.com/) using the [aoe2.net API](https://aoe2.net/#api).
 
-1. Layout and CSS: **~60%**
-2. Fetch data from the API: **~20%**
-3. Settings menu: **~40%**
-4. Build Electron App: **0%**
+## Status
 
----
+**:construction: This Project is currently under development and unfinished!**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+| #   | Task                                 | Progress | Finished |
+| --- | ------------------------------------ | -------- | -------- |
+| 1   | Layout                               | 80%      | :x:      |
+| 2   | Fetch data from API                  | 0%       | :x:      |
+| 3   | Settings page                        | 50%      | :x:      |
+| 4   | Search Player page                   | 10%      | :x:      |
+| 5   | Custom page for each searched Player | 0%       | :x:      |
+| 6   | Build Electron App                   | 0%       | :x:      |
 
 ## Available Scripts
 
-In the project directory, you can run:
+You can find all scripts in the `package.json` file.
 
-### `npm start`
+### Developing
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Download the project dependencies to your machine:
 
-The page will reload if you make edits. You will also see any lint errors in the console.
+```
+npm install
+```
 
-### `npm test`
+Then start the development server:
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm run dev
 
-### `npm run build`
+# or to start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+### Building
 
-The build is minified and the filenames include the hashes. Your app is ready to be deployed!
+To create a production version:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm run build
 
-### `npm run eject`
+# You can preview the production build using
+npm run preview
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**:warning: To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment.**
