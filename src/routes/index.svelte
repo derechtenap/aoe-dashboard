@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <svelte:head>
 	<title>AOE Dashboard</title>
 </svelte:head>
