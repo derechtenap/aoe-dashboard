@@ -6,14 +6,15 @@ Dashboard for Age of Empires II. Displaying your previous matches, stats and ong
 
 **:construction: This Project is currently under development and unfinished!**
 
-| #   | Task                | Progress | Finished |
-| --- | ------------------- | -------- | -------- |
-| 1   | Layout              | 80%      | :x:      |
-| 2   | Fetch data from API | 0%       | :x:      |
-| 3   | Settings menu       | 0%       | :x:      |
-| 4   | Build Electron App  | 0%       | :x:      |
+| #   | Task                                 | Progress | Finished |
+| --- | ------------------------------------ | -------- | -------- |
+| 1   | Layout                               | 80%      | :x:      |
+| 2   | Fetch data from API                  | 0%       | :x:      |
+| 3   | Settings page                        | 50%      | :x:      |
+| 4   | Search Player page                   | 10%      | :x:      |
+| 5   | Custom page for each searched Player | 0%       | :x:      |
+| 6   | Build Electron App                   | 0%       | :x:      |
 
-## Avaiable Scripts
 ## Available Scripts
 
 You can find all scripts in the `package.json` file.
