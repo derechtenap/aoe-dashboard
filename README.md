@@ -50,3 +50,7 @@ npm run preview
 ```
 
 **:warning: To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment.**
+
+## Game Content Usage Rules
+
+Age of Empires II: Definitive Edition © Microsoft Corporation. AOE Dashboard was created under Microsoft's "Game Content Usage Rules" using assets from Age of Empires II: Definitive Edition, and it is not endorsed by or affiliated with Microsoft.
