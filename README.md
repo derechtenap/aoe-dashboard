@@ -14,6 +14,7 @@ Dashboard for Age of Empires II. Displaying your previous matches, stats and ong
 | 4   | Build Electron App  | 0%       | :x:      |
 
 ## Avaiable Scripts
+## Available Scripts
 
 You can find all scripts in the `package.json` file.
 
