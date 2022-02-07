@@ -32,10 +32,3 @@
 	placeholder="76561197984749679"
 />
 <label for="steam64id">Steam64ID</label>
-
-<button
-	class="mt-14 block rounded p-2 font-bold uppercase hover:bg-white hover:text-black dark:bg-gray-200 dark:text-gray-900"
-	type="submit"
->
-	Submit changes
-</button>
