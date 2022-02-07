@@ -1,5 +1,7 @@
 # :desktop_computer: AOE Dashboard
 
+[![wakatime](https://wakatime.com/badge/user/b1ad2fef-c724-4810-bfdb-2707dd8ae64d/project/e9c04bd6-bdee-4404-b185-b5815a60d172.svg)](https://wakatime.com/badge/user/b1ad2fef-c724-4810-bfdb-2707dd8ae64d/project/e9c04bd6-bdee-4404-b185-b5815a60d172)
+
 Dashboard for Age of Empires II. Displaying your previous matches, stats and ongoing game. Build with [SvelteKit](https://kit.svelte.dev/) and [Tailwind CSS](https://tailwindcss.com/) using the [aoe2.net API](https://aoe2.net/#api).
 
 ## Status
