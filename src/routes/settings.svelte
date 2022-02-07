@@ -2,4 +2,4 @@
 	<title>Settings &ndash; AOE Dashboard</title>
 </svelte:head>
 
-<p class="text-3xl">Settings</p>
+<h1 class="mb-10 text-4xl font-bold tracking-widest">Settings</h1>
