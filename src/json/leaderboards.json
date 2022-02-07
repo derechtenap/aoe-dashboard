@@ -1,0 +1,30 @@
+[
+	{
+		"id": 0,
+		"name": "Unranked"
+	},
+	{
+		"id": 1,
+		"name": "1v1 Deathmatch"
+	},
+	{
+		"id": 2,
+		"name": "Team Deathmatch"
+	},
+	{
+		"id": 3,
+		"name": "1v1 Random Map"
+	},
+	{
+		"id": 4,
+		"name": "Team Random Map"
+	},
+	{
+		"id": 13,
+		"name": "1v1 Empire Wars"
+	},
+	{
+		"id": 14,
+		"name": "Team Empire Wars"
+	}
+]
