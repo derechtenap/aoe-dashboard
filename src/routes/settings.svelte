@@ -8,9 +8,7 @@
 
 <h1 class="mb-10 text-4xl font-bold tracking-widest">Settings</h1>
 
-<h2 class="mt-10 mb-5 rounded p-5 text-xl text-xl tracking-widest dark:bg-gray-800">
-	Leaderboards
-</h2>
+<h2 class="mt-10 mb-5 rounded p-5 text-xl tracking-widest dark:bg-gray-800">Leaderboards</h2>
 <p class="mb-5">Select the Leaderboards in which you are interested in.</p>
 <div class="flex flex-col">
 	{#each leaderboards as leaderboard}
