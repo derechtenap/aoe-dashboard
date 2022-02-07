@@ -1,2 +1,9 @@
-<h1 class="text-dark">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+</script>
+
+<svelte:head>
+	<title>AOE Dashboard</title>
+</svelte:head>
+
+<h1 class="text-3xl">Latest Match</h1>
+<h2 class="text-2xl">Match History</h2>
