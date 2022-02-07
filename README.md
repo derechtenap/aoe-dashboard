@@ -1,40 +1,48 @@
-# create-svelte
+# :desktop_computer: AOE Dashboard
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Dashboard for Age of Empires II. Displaying your previous matches, stats and ongoing game. Build with [SvelteKit](https://kit.svelte.dev/) and [Tailwind CSS](https://tailwindcss.com/) using the [aoe2.net API](https://aoe2.net/#api).
 
-## Creating a project
+## Status
 
-If you're seeing this, you've probably already done this step. Congrats!
+**:construction: This Project is currently under development and unfinished!**
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+| #   | Task                | Progress | Finished |
+| --- | ------------------- | -------- | -------- |
+| 1   | Layout              | 80%      | :x:      |
+| 2   | Fetch data from API | 0%       | :x:      |
+| 3   | Settings menu       | 0%       | :x:      |
+| 4   | Build Electron App  | 0%       | :x:      |
 
-# create a new project in my-app
-npm init svelte@next my-app
+## Avaiable Scripts
+
+You can find all scripts in the `package.json` file.
+
+### Developing
+
+Download the project dependencies to your machine:
+
+```
+npm install
 ```
 
-> Note: the `@next` is temporary
+Then start the development server:
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+```
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# or to start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
 
-## Building
+### Building
 
-To create a production version of your app:
+To create a production version:
 
-```bash
+```
 npm run build
+
+# You can preview the production build using
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment.
+**:warning: To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment.**
