@@ -9,7 +9,7 @@
 	<div class="mt-4 flex flex-col sm:mt-0 sm:flex-row">
 		{#each navItems as item}
 			<a
-				class="rounded p-5 last:mr-0 hover:animate-pulse hover:dark:bg-gray-700 sm:mr-5"
+				class="rounded p-5 last:mr-0 hover:duration-1000 hover:dark:bg-gray-700 sm:mr-5"
 				href={item.href}
 			>
 				{item.name}

@@ -1,5 +1,5 @@
 <script>
-	import { steam64id, boards } from '../stores/settingsStore';
+	import { boards } from '../stores/settingsStore';
 
 	// Handle which leaderboards are used app wide
 	const handleChange = (id, event) => {
@@ -10,8 +10,6 @@
 			}
 		});
 	};
-
-	steam64id.useLocalStorage();
 </script>
 
 <svelte:head>
@@ -38,19 +36,3 @@
 		</div>
 	{/each}
 </div>
-<h3 class="mt-10 mb-5 rounded p-5 text-xl tracking-widest dark:bg-gray-800">Steam64ID</h3>
-<p class="mb-5">
-	You can insert a <span class="font-mono">Steam64ID</span> to track a specific player.
-	Alternatively you can use the
-	<a class="font-bold hover:underline" href="/search/">Search Player</a> site.
-</p>
-<input
-	class="mr-3 rounded px-2 py-1 dark:bg-gray-200 dark:text-gray-900"
-	type="text"
-	name="steam64id"
-	id="steam64id"
-	placeholder={$steam64id}
-	bind:value={$steam64id}
-	maxlength="17"
-/>
-<label for="steam64id">Steam64ID</label>
