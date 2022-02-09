@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Search Player",
+		"href": "/search/"
+	},
+	{
+		"name": "Settings",
+		"href": "/settings/"
+	}
+]

@@ -1,14 +1,5 @@
 <script>
-	const navItems = [
-		{
-			name: 'Search Player',
-			href: '/search/'
-		},
-		{
-			name: 'Settings',
-			href: '/settings/'
-		}
-	];
+	import navItems from '../json/navItems.json';
 </script>
 
 <nav
@@ -19,8 +10,10 @@
 		{#each navItems as item}
 			<a
 				class="rounded p-5 last:mr-0 hover:animate-pulse hover:dark:bg-gray-700 sm:mr-5"
-				href={item.href}>{item.name}</a
+				href={item.href}
 			>
+				{item.name}
+			</a>
 		{/each}
 	</div>
 </nav>
