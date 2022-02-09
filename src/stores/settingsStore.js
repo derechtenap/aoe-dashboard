@@ -2,6 +2,10 @@ import {
     writable
 } from "svelte/store";
 
+import {
+    browser
+} from "$app/env"
+
 import leaderboards from "../json/leaderboards.json"
 
 // Add checked property to each leaderboard
@@ -21,7 +25,7 @@ const createWritableStore = (key, value) => {
         subscribe,
         set,
         useLocalStorage: () => {
-            if (typeof window !== 'undefined') {
+            if (browser) {
                 const data = localStorage.getItem(key)
                 if (data) {
                     set(data)
