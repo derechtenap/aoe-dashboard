@@ -15,7 +15,8 @@ Dashboard for Age of Empires II. Displaying your previous matches, stats and ong
 | 3   | Settings page                        | 50%      | :x:                |
 | 4   | Search Player page                   | 10%      | :x:                |
 | 5   | Custom page for each searched Player | 0%       | :x:                |
-| 6   | Build Electron App                   | 0%       | :x:                |
+| 6   | Svelte Transitions                   | 0%       | :x:                |
+| 7   | Build Electron App                   | 0%       | :x:                |
 
 ## Available Scripts
 
