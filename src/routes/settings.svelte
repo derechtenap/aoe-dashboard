@@ -51,5 +51,6 @@
 	id="steam64id"
 	placeholder={$steam64id}
 	bind:value={$steam64id}
+	maxlength="17"
 />
 <label for="steam64id">Steam64ID</label>
