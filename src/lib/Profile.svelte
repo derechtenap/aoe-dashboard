@@ -1,10 +1,4 @@
 <script>
-	// Placeholder values
-	let games = 0;
-	let wins = 0;
-	let losses = 0;
-	let streak = 0;
-	let name = 'profile_name';
 	import { steam64id } from '../stores/settingsStore';
 </script>
 
@@ -17,8 +11,10 @@
 	alt={`${$steam64id}\'s Steam avatar`}
 />
 <ul>
-	<li class="flex justify-between">Games played <var class="not-italic">{games}</var></li>
-	<li class="flex justify-between">Wins<var class="not-italic">{wins}</var></li>
-	<li class="flex justify-between">Losses<var class="not-italic">{losses}</var></li>
-	<li class="flex justify-between">Streak<var class="not-italic">{streak}</var></li>
+	<li class="flex justify-between">Games played <var class="not-italic">0</var></li>
+	<li class="flex justify-between">Wins<var class="not-italic">0</var></li>
+	<li class="flex justify-between">Losses<var class="not-italic">0</var></li>
+	<li class="flex justify-between">
+		Current Streak<var class="not-italic">0</var>
+	</li>
 </ul>
